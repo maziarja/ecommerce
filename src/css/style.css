@@ -261,7 +261,8 @@ h1 {
   background-color: inherit;
   cursor: pointer;
 }
-.plus-icon svg {
+.plus-icon svg,
+.minus-icon svg {
   display: block;
   width: 1.5rem;
   fill: hsl(26, 100%, 55%);
@@ -269,7 +270,7 @@ h1 {
 .plus-icon:hover path {
   fill: hsla(26, 100%, 55%, 0.55);
 }
-.minus-icon:hover use {
+.minus-icon:hover path {
   fill: hsla(26, 100%, 55%, 0.55);
 }
 .quantity {

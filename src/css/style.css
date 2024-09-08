@@ -270,6 +270,9 @@ h1 {
 svg {
   touch-action: manipulation; /* Prevent double-tap zoom */
 }
+button {
+  touch-action: manipulation; /* Prevent zoom on double-tap for the button */
+}
 .plus-icon:hover path {
   fill: hsla(26, 100%, 55%, 0.55);
 }

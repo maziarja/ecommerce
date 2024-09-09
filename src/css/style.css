@@ -466,11 +466,14 @@ button {
 }
 .orange-line {
   opacity: 0;
+  transform: translateX(-100%);
   border-top: 0.4rem solid hsl(26, 100%, 55%);
   margin-top: auto;
+  transition: transform 0.3s;
 }
 .desktop-nav__container:has(.desktop-nav:hover) .orange-line {
   opacity: 1;
+  transform: translateX(0);
 }
 .desktop-nav:hover {
   color: hsl(220, 13%, 13%);
